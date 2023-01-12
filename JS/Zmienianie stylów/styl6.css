@@ -1,0 +1,61 @@
+html{
+    font-family: Georgia;
+    display: flex;
+}
+
+body{   
+    margin: 0; 
+    padding: 0; 
+}
+
+p{
+    padding-top: 10px;
+}
+
+img{
+    padding: 10px;
+    /* border: 1px solid white; */
+}
+
+ul{
+    float: right;
+    margin-right: 35%;
+}
+/* .button{
+    based on name
+
+} */
+
+#left{
+    background-color: Maroon;
+    color: white;
+    height: 600px;
+    width: 30%;
+
+    float: left;
+}
+
+#right{
+    background-color: Maroon;
+    color: white;
+    height: 600px;
+    width: 70%;
+    float: left;
+}
+
+#stopka{
+    background-color: dimgray;
+    color: white;
+}
+
+#Indigo{
+    background-color: indigo;
+}
+
+#SteelBlue{
+    background-color: SteelBlue;
+}
+
+#Olive{
+    background-color: Olive;
+}

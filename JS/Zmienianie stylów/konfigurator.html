@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Style w JavaScript</title>
+    <link rel="stylesheet" href="styl6.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="left">
+        <h1>Konfigurator stylu</h1>
+
+        <p>Podaj kolor tła</p>
+
+        <button id="Indigo" onclick="changeBackgroundColor(this.id)">Indigo</button>
+        <button id="SteelBlue" onclick="changeBackgroundColor(this.id)">SteelBlue</button>
+        <button id="Olive" onclick="changeBackgroundColor(this.id)">Olive</button>
+
+        <p>Podaj kolor trzcionki</p>
+        <select onchange="changeTextColor(this.value)">
+            <option>White</option>
+            <option>Tan</option>
+            <option>Bisque</option>
+            <option>Plum</option>
+        </select>
+
+        <p>Podaj rozmiar trzcionki w procentach,np. 200%</p>
+        <input value = "100%" onchange="changeTextSize(this.value)">
+
+        <p>Czy rysunek ma mieć ramkę?</p>
+        <input type="checkbox" onclick="drawFrame(this.checked)">Rysuj ramkę
+
+        <p>Jaki jest typ punktora listy?</p>
+        <form>
+            <input type="radio" id="option" onclick="changeListType(this)">dysk<br>
+            <input type="radio" id="option1" onclick="changeListType(this)">okrąg<br>
+            <input type="radio" id="option2" onclick="changeListType(this)">kwadrat<br>
+        </form>
+
+        <input type="checkbox" onclick="AllParagraps(this.checked)">Rysuj ramkę dookoła p
+    </div>
+    <div id="right">
+        <img src="gibraltar.jpg" id="siteImage"alt="półwysep Gibraltar">
+
+        <ul id="list">
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+        </ul>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sequi facere, error harum quasi nisi atque eum voluptates blanditiis animi illum alias est eligendi, nesciunt praesentium aliquid quidem expedita reiciendis.</p>
+    </div>
+    <div id="stopka">
+        <p>Autor: 000000000000</p>
+    </div>
+</body>
+</html>
