@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+
+#banerLeft{
+    float: left;
+    background-color: #00600F;
+    color: white;
+    text-align: center;
+    width: 75%;
+    height: 90px;
+}
+
+#banerRight{
+    float: left;
+    background-color: #00600F;
+    color: white;
+    width: 25%;
+    height: 90px;
+}
+
+#general{
+    display: flex;
+    background-color: #C8E6C9;
+    height: 600px;
+    width: 100%;
+    /* scroll here? */
+}
+
+#stopka{
+    height: 100%;
+    width: 100%;
+    background-color: #00600F;
+    color: white;
+}
+
+h5{
+    background-color: #00600F;
+    color: white;
+    size: 200%;
+    text-align: center;
+    margin: 0px;
+}
+
+h2{
+    text-align: right;
+}
+
+#blokProduktu{
+    margin: 10px;
+    border: 1px;
+    border-style: solid;
+    border-radius: 1px;
+    border-color: #00600F;
+    width: 300px;
+}
