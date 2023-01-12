@@ -43,8 +43,27 @@
     </div>
 
     <div id="stopka">
-        Nazwa:<input/>
-        Cena:<input type="number"/>
+        <form method = "POST" name = "Add">
+            Nazwa:<input name = "nazwa"/>
+            Cena:<input type="number" name = "cena"/>
+            <input type="submit">
+    </form>
+
+    <?php
+        if(isset($_POST['nazwa']) && isset($_POST['cena']))
+        {
+            $con = mysqli_connect("localhost", "root", "","sklep");
+
+            $nazwa = $_POST["nazwa"];
+            $cena = $_POST["cena"];
+
+            mysqli_query($con, "INSERT INTO produkty(Rodzaje_id, Producenci_id, nazwa, ilosc, opis, cena, zdjecie) VALUES (0, 0, '$nazwa', 1, '', $cena, '')");
+
+            // refreshes site
+            header("Refresh:0");
+            mysqli_close($con);
+        }
+    ?>
     </div>
 </body>
 </html>
