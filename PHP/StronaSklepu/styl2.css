@@ -20,11 +20,14 @@ body{
 }
 
 #general{
-    display: flex;
     background-color: #C8E6C9;
     height: 600px;
     width: 100%;
     /* scroll here? */
+
+
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 #stopka{
