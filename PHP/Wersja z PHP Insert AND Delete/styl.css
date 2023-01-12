@@ -1,0 +1,55 @@
+body {
+    font-family: Georgia;
+    margin: 0;
+}
+
+.banner {
+    background-color: #005B4F;
+    color: white;
+    text-align: center;
+    font-size: 50%;
+    height: 20px;
+}
+
+.main {
+    background-color: #E1E2E1;
+    height: 400px;
+    padding: 20px;
+    overflow: scroll;
+}
+
+.pole{
+    display: flex;
+}
+
+.opis {
+    display: inline;
+    clear: both;
+}
+
+.jeden, .dwa {
+    background-color: #005B4F;
+    color: white;
+    text-align: center;
+    width: 50%;
+    height: 20px;
+    float: left;
+}
+
+img {
+    padding: 20px;
+    border-radius: 100%;
+}
+
+h2 {
+    text-align: center;
+    background-color: #00897B;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
