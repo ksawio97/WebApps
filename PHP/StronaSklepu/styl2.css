@@ -19,15 +19,17 @@ body{
     height: 90px;
 }
 
-#general{
+#general{   
+    /* sometimes it is better to use grid */
+    display: flex;
+    flex-wrap: wrap;
+    
     background-color: #C8E6C9;
-    height: 600px;
+    min-height: 600px;
     width: 100%;
     /* scroll here? */
 
 
-    /* display: flex;
-    flex-wrap: wrap; */
 }
 
 #stopka{
