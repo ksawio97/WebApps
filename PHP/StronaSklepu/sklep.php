@@ -21,7 +21,7 @@
     </div>
     <div id="general">
         <?php
-        $con = mysqli_connect("localhost", "root", "","dane2");
+        $con = mysqli_connect("localhost", "root", "","sklep");
 
         $data = mysqli_query($con, "SELECT * FROM produkty");
 

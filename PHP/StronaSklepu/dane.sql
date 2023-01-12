@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Baza danych: `dane`
+-- Baza danych: `skelp`
 --
 
 -- --------------------------------------------------------
@@ -174,24 +174,7 @@ INSERT INTO `produkty` (`id`, `Rodzaje_id`, `Producenci_id`, `nazwa`, `ilosc`, `
 (5, 2, 4, 'marchew', 100, '', 1.56, 'marchew.jpg'),
 (6, 2, 7, 'ziemniak', 120, 'irys', 3.33, 'ziemniak.jpg'),
 (7, 2, 7, 'koper', 2, 'natka', 1.56, 'koper.jpg'),
-(8, 2, 4, 'papryka', 50, 'zielona', 10.99, 'papryka.jpg'),
-(9, 12, 10, 'Star Wars 1', 1, 'Luke Skywalker i ksi??niczka Leia w walce z ciemn? stron? mocy', 25, 'star-wars.jpg'),
-(10, 7, 9, 'Alien', 1, 'Za?oga statku kosmicznego Nostromo odbiera tajemniczy sygna? i l?duje na niewielkiej planetoidzie, gdzie jeden z jej cz?onków zostaje zaatakowany przez obc? form? ?ycia.', 20, 'alien.jpg'),
-(11, 12, 10, 'E.T.', 1, 'Przybysz z innej planety zaprzyja?nia si? z ch?opcem i jego rodzin?.', 30, 'et.jpg'),
-(12, 7, 9, 'Alien2', 1, 'Za?oga statku kosmicznego Nostromo odbiera tajemniczy sygna? i l?duje na niewielkiej planetoidzie, gdzie jeden z jej cz?onków zostaje zaatakowany przez obc? form? ?ycia.', 20, 'alien.jpg'),
-(13, 12, 10, 'hobbit2', 1, 'Hobbit Bilbo Baggins wyrusza w niebezpieczn? podro?, by wraz z czarodziejem Gandalfem i trzynastoma krasnoludami pokona? smoka Smauga.', 30, 'hobbit.jpg'),
-(14, 12, 10, 'Fantasy2', 1, 'Elfy, krasnoludy i inne fantastyczne itstoty w walce o swoj? planet?.', 10, 'fantasy.jpg'),
-(15, 7, 9, 'Alien3', 1, 'Za?oga statku kosmicznego Nostromo odbiera tajemniczy sygna? i l?duje na niewielkiej planetoidzie, gdzie jeden z jej cz?onków zostaje zaatakowany przez obc? form? ?ycia.', 20, 'alien.jpg'),
-(16, 12, 10, 'hobbit3', 1, 'Hobbit Bilbo Baggins wyrusza w niebezpieczn? podro?, by wraz z czarodziejem Gandalfem i trzynastoma krasnoludami pokona? smoka Smauga.', 30, 'hobbit.jpg'),
-(17, 12, 10, 'Star Wars 2', 1, 'Luke Skywalker i ksi??niczka Leia w walce z ciemn? stron? mocy', 25, 'star-wars.jpg'),
-(18, 7, 9, 'Alien4', 1, 'Za?oga statku kosmicznego Nostromo odbiera tajemniczy sygna? i l?duje na niewielkiej planetoidzie, gdzie jeden z jej cz?onków zostaje zaatakowany przez obc? form? ?ycia.', 20, 'alien.jpg'),
-(19, 12, 10, 'Fantasy', 1, 'Elfy, krasnoludy i inne fantastyczne itstoty w walce o swoj? planet?.', 10, 'fantasy.jpg'),
-(20, 12, 10, 'Star Wars 3', 1, 'Luke Skywalker i ksi??niczka Leia w walce z ciemn? stron? mocy', 25, 'star-wars.jpg'),
-(21, 12, 10, 'hobbit', 1, 'Hobbit Bilbo Baggins wyrusza w niebezpieczn? podro?, by wraz z czarodziejem Gandalfem i trzynastoma krasnoludami pokona? smoka Smauga.', 30, 'hobbit.jpg'),
-(22, 11, 11, 'Koralowa wyspa', 1, 'Hamprey Bogart w jednej ze swoich wielkich ról.', 10, 'koralowa_wyspa.jpg'),
-(23, 13, 10, 'krokodyl', 1, 'Gigantyczny krokodyl atakuje pewne miasto.', 10, 'krokodyl.jpg'),
-(24, 12, 10, 'Star Wars 4', 1, 'Luke Skywalker i ksi??niczka Leia w walce z ciemn? stron? mocy', 25, 'star-wars.jpg'),
-(25, 12, 10, 'SteamPunk', 1, 'Wizja postapokaliptycznej planety', 15, 'steampunk.jpg');
+(8, 2, 4, 'papryka', 50, 'zielona', 10.99, 'papryka.jpg');
 
 -- --------------------------------------------------------
 
