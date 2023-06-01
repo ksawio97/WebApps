@@ -1,0 +1,52 @@
+html{
+    font-family: Arial;
+}
+
+body{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto 410px auto 100px;
+}
+
+#baner, #glowny{
+    background-color: rgb(220, 220, 220);
+    padding: 20px;
+    text-align: center;
+}
+
+#lewy, #prawy, #stopka1, #stopka2{
+    background-color: rgb(255, 127, 80);
+    color: white;
+}
+
+#lewy{
+    display: flex;
+    flex-direction: column;
+}
+
+#prawy, #stopka2{
+    grid-column: 2;
+} 
+
+#baner, #glowny{
+    grid-column: 1 / 3;
+}
+
+#glowny{
+    grid-row: 3;
+}
+
+#stopka1, #stopka2{
+    grid-row: 4;
+}
+
+tr, td{
+    border: solid 1px rgb(255, 127, 80);
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
