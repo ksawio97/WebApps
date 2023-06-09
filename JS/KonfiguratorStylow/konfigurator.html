@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl6.css">
+    <script src="skrypt.js"></script>
+    <title>Style w JavaScript</title>
+</head>
+<body>
+    <div id="lewy">
+        <h1>Konfigurator stylu</h1>
+        <p>Podaj kolor tła</p><br>
+
+        <button id="Indigo" onclick="ChangeBackground(id)">Indigo</button>
+        <button id="SteelBlue" onclick="ChangeBackground(id)">SteelBlue</button>
+        <button id="Olive" onclick="ChangeBackground(id)">Olive</button>
+
+        <p>Podaj kolor czcionki</p>
+        <select onclick="ChangeTextColor(value)">
+            <option>White</option>
+            <option>Tan</option>
+            <option>Bisque</option>
+            <option>Plum</option>
+        </select>
+
+        <p>Podaj rozmiar czcionki w procentach, np. 200%</p>
+        <input placeholder="100%" onchange="ChangeFontSize(value)">
+
+        <p>Czy rysunek ma mieć ramkę?</p>
+        <input type="checkbox" checked="true" onchange="ChangeImageBorderVisibility(checked)">Rysuj ramkę
+
+        <p>Jaki jest typ punktora listy?</p>
+        <input type="radio" name="punktor" onclick="ChangeListType('disc')" checked="true">dysk
+        <input type="radio" name="punktor" onclick="ChangeListType('square')">kwadrat
+        <input type="radio" name="punktor" onclick="ChangeListType('circle')">okrąg
+    </div>
+    <div id="prawy">
+        <img src="gibraltar.jpg" alt="półwysep Gibraltar" style="float: left;">
+        <ul>
+            <li>element 1</li>
+            <li>element 2</li>
+            <li>element 3</li>
+        </ul>
+
+        <p style="float: left;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat accusantium dolores architecto illo et dolorem, sequi magnam. Numquam illum tenetur cupiditate corporis quia corrupti sapiente quaerat, earum cum necessitatibus laborum!</p>
+    </div>
+    <div id="stopka">
+        Autor: XYZ
+    </div>
+</body>
+</html>
