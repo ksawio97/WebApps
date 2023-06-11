@@ -1,0 +1,51 @@
+html{
+    font-family: Tahoma;
+}
+
+body{
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 200px auto auto;
+}
+
+#baner1, #baner2, #baner3, #stopka{
+    background-color: rosybrown;
+    color: white;
+}
+
+#baner2{
+    text-align: center;
+
+    grid-column: 2;
+}
+
+#baner3{
+    grid-column: 3;
+}
+
+#glowny{
+    background-color: wheat;
+    padding: 50px;
+
+    grid-row: 2;
+    grid-column: 1 / 4;
+}
+
+#stopka{
+    padding: 5px;
+    text-align: center;
+
+    grid-row: 3;
+    grid-column: 1 / 4;
+}
+
+a{
+    border: solid 2px DarkRed;
+    background-color: salmon;
+    color: darkred;
+
+    padding: 20px;
+    height: 200px;
+}
